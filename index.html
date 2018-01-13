@@ -1,5 +1,39 @@
 <html>
+<head>
+<title>wagner-nicolas.com</title>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous">
+</script>
+<script type="text/javascript" src="./terminal.js"></script>
+<link rel="stylesheet" type="text/css" href="./terminal.css"></link>
+</head>
 <body>
-  Hello World
+<script>
+jQuery(function($, undefined) {
+    $('#term_demo').terminal(function(command, term) {
+        if (command == 'help') {
+           term.echo("Available commands:\n\t-name\n\t-firstname\n\t-social\n\t-contact");
+        } else if (command == 'name') {
+           term.echo("Wagner");
+        } else if (command == 'firstname') {
+           term.echo("Nicolas");
+        } else if (command == 'social') {
+           term.echo("Social network:\n\t- github https://github.com/n1c01a5 \n\t- linkedin https://www.linkedin.com/in/nicolas-wagner-ab59249a/ \n\t- viadeo http://www.viadeo.com/profile/0022c3s0cmxjpyh6/");
+        } else if (command == 'contact') {
+           term.echo('contact'+'@'+'wagner-nicolas.com');
+        } else {
+           term.echo('unknown command "' + command + '"');
+        }
+    }, {
+        greetings: 'welcome to wagner-nicolas.com',
+        name: 'js_demo',
+        prompt: 'wagner-nicolas.com> '});
+});
+</script>
+<div id="term_demo"></div>
 </body>
+
+
 </html>
