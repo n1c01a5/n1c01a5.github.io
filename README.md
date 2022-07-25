@@ -13,5 +13,5 @@
 
 ### Get in touch with me...
 
-[💬 Twitter>](https://twitter.com/w_n1c01a5)
-[📫 Mail>](mailto://nicolas@feature.sh)
+[💬 Twitter](https://twitter.com/w_n1c01a5)
+[📫 Mail](mailto://nicolas@feature.sh)
