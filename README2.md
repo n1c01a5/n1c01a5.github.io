@@ -6,8 +6,6 @@
 - 🌱 I’m learning every day
 - 👯 I’m looking to collaborate on interesting blockchain projects
 - ⛓ I love Web3
-- 💬 Reach me: [NoahJerry96](https://twitter.com/NoahJerry96)
-- 📫 Via Email: [newcreationjerry96@gmail.com](https://twitter.com/newcreationjerry96@gmail.com)
 - 😃 Alias: n1c0
 - ⚡ Fun fact: Chess addict ♟
 
